@@ -1,14 +1,29 @@
+@import "./Card.css";
+
 body{
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
 }
 
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
   text-align: center;
   background-color: aliceblue;
+}
+
+/* .app{
+  width: 100%;
+  border: 1px solid black;
+} */
+
+.head{
+  margin: 0 0 2rem 0;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  background-color: rgb(249, 98, 48);
+  font-size: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }

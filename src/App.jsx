@@ -1,18 +1,20 @@
 // import { useState } from 'react'
 import './App.css'
+import Card from './Card'
+import Header from './Header'
+import data from './data'
 
-function App() {
+export default function App() {
   // const [count, setCount] = useState(0)
-
+  const cards = data.map(obj => <Card key={obj.id} item={obj} /> )
   return (
-    <>
-      <div className="App">
-        <header className="App-header">
-          <h1>React App</h1>
-        </header>
-      </div>
-    </>
+    <div className="app">
+      <Header />
+      <main>
+        {cards}
+      </main>
+    </div>
   )
-}
 
-export default App
+
+}
