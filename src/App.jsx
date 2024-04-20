@@ -1,18 +1,17 @@
 // import { useState } from 'react'
 import './App.css'
-import Card from './Card'
-import Header from './Header'
+import Card from './components/Card'
+import Header from './components/Header'
+import Footer from './components/Footer'
 import data from './data'
 
 export default function App() {
-  // const [count, setCount] = useState(0)
   const cards = data.map(obj => <Card key={obj.id} item={obj} /> )
   return (
     <div className="app">
       <Header />
-      <main>
-        {cards}
-      </main>
+      <main>{cards}</main>
+      <Footer />
     </div>
   )
 

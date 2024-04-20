@@ -27,3 +27,12 @@ body{
   font-size: 1.5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+.foot{
+  margin: 2rem 0 0;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  background-color: rgb(48, 75, 249);
+  font-size: 1.5rem;
+  box-shadow: 10px 0 0 rgba(0, 0, 0, 0.2);
+}
